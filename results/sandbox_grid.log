@@ -1,0 +1,25 @@
+[synthetic_quantum] n=800 task=classification features=8
+  N=10: 6 draws in 27s
+  N=20: 6 draws in 28s
+  N=30: 6 draws in 28s
+  N=50: 6 draws in 33s
+[synthetic_classical] n=800 task=classification features=8
+  N=10: 6 draws in 26s
+  N=20: 6 draws in 27s
+  N=30: 6 draws in 28s
+  N=50: 6 draws in 28s
+[sk_breast_cancer] n=569 task=classification features=30
+  N=10: 6 draws in 27s
+  N=20: 6 draws in 27s
+  N=30: 6 draws in 28s
+  N=50: 6 draws in 29s
+[sk_wine] n=178 task=classification features=13
+  N=10: 6 draws in 27s
+  N=20: 6 draws in 28s
+  N=30: 6 draws in 30s
+  N=50: 6 draws in 30s
+[delaney_esol] n=1128 task=regression features=12
+  N=10: 6 draws in 15s
+  N=20: 6 draws in 15s
+  N=30: 6 draws in 15s
+  N=50: 6 draws in 17s

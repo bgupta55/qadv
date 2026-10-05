@@ -1,0 +1,49 @@
+dataset,N,reference,draws,mean_gap,ci_lo,ci_hi,quantum_win_rate,practical_win_rate,p_raw,p_holm,verdict
+delaney_esol,10,best classical kernel,6,-0.0935,-0.2382,0.0373,0.3333,0.1667,0.3125,1.0,no evidence of difference
+delaney_esol,10,"best classical (any, incl. RF/GBT/linear)",6,-0.2174,-0.3701,-0.0452,0.1667,0.1667,0.0938,1.0,no evidence of difference
+delaney_esol,20,best classical kernel,6,0.0531,-0.0108,0.1412,0.5,0.5,0.4375,1.0,no evidence of difference
+delaney_esol,20,"best classical (any, incl. RF/GBT/linear)",6,-0.0878,-0.1588,-0.0194,0.1667,0.1667,0.0938,1.0,no evidence of difference
+delaney_esol,30,best classical kernel,6,-0.0932,-0.1745,-0.0242,0.1667,0.0,0.0938,1.0,no evidence of difference
+delaney_esol,30,"best classical (any, incl. RF/GBT/linear)",6,-0.1045,-0.1794,-0.0369,0.0,0.0,0.0312,1.0,no evidence of difference
+delaney_esol,50,best classical kernel,6,0.0027,-0.0574,0.0581,0.5,0.5,0.8438,1.0,no evidence of difference
+delaney_esol,50,"best classical (any, incl. RF/GBT/linear)",6,-0.0284,-0.0857,0.0365,0.3333,0.3333,0.4375,1.0,no evidence of difference
+delaney_esol,75,best classical kernel,6,-0.0303,-0.0679,0.0037,0.5,0.0,0.4375,1.0,no evidence of difference
+delaney_esol,75,"best classical (any, incl. RF/GBT/linear)",6,-0.0477,-0.0846,-0.0191,0.1667,0.0,0.0625,1.0,no evidence of difference
+delaney_esol,100,best classical kernel,6,-0.0123,-0.057,0.0165,0.6667,0.1667,0.6875,1.0,no evidence of difference
+delaney_esol,100,"best classical (any, incl. RF/GBT/linear)",6,-0.0228,-0.0646,0.0061,0.3333,0.1667,0.3125,1.0,no evidence of difference
+sk_breast_cancer,10,best classical kernel,6,-0.2572,-0.3838,-0.1218,0.0,0.0,0.0312,1.0,no evidence of difference
+sk_breast_cancer,10,"best classical (any, incl. RF/GBT/linear)",6,-0.3662,-0.4761,-0.2304,0.0,0.0,0.0312,1.0,no evidence of difference
+sk_breast_cancer,20,best classical kernel,6,-0.0971,-0.2145,-0.0084,0.1667,0.1667,0.1562,1.0,no evidence of difference
+sk_breast_cancer,20,"best classical (any, incl. RF/GBT/linear)",6,-0.1067,-0.2428,-0.0066,0.1667,0.1667,0.1562,1.0,no evidence of difference
+sk_breast_cancer,30,best classical kernel,6,-0.0083,-0.0217,0.0097,0.1667,0.1667,0.3125,1.0,no evidence of difference
+sk_breast_cancer,30,"best classical (any, incl. RF/GBT/linear)",6,-0.0083,-0.0216,0.008,0.1667,0.1667,0.3125,1.0,no evidence of difference
+sk_breast_cancer,50,best classical kernel,6,-0.0154,-0.0308,-0.0022,0.0,0.0,0.0312,1.0,no evidence of difference
+sk_breast_cancer,50,"best classical (any, incl. RF/GBT/linear)",6,-0.0144,-0.0281,-0.0022,0.0,0.0,0.0312,1.0,no evidence of difference
+sk_breast_cancer,75,best classical kernel,6,0.0016,-0.0021,0.0057,0.6667,0.0,0.5625,1.0,no evidence of difference
+sk_breast_cancer,75,"best classical (any, incl. RF/GBT/linear)",6,0.0008,-0.003,0.0052,0.5,0.0,1.0,1.0,no evidence of difference
+sk_breast_cancer,100,best classical kernel,6,-0.0007,-0.0068,0.0053,0.5,0.0,0.8438,1.0,no evidence of difference
+sk_breast_cancer,100,"best classical (any, incl. RF/GBT/linear)",6,-0.0007,-0.007,0.0054,0.5,0.0,0.8438,1.0,no evidence of difference
+sk_diabetes,10,best classical kernel,6,-0.1034,-0.2239,0.0121,0.3333,0.1667,0.2188,1.0,no evidence of difference
+sk_diabetes,10,"best classical (any, incl. RF/GBT/linear)",6,-0.1338,-0.2678,-0.0434,0.1667,0.0,0.0625,1.0,no evidence of difference
+sk_diabetes,20,best classical kernel,6,-0.1961,-0.3255,-0.0709,0.1667,0.1667,0.0625,1.0,no evidence of difference
+sk_diabetes,20,"best classical (any, incl. RF/GBT/linear)",6,-0.1676,-0.3004,-0.0625,0.1667,0.0,0.0625,1.0,no evidence of difference
+sk_diabetes,30,best classical kernel,6,-0.0926,-0.2963,0.0478,0.3333,0.3333,0.5625,1.0,no evidence of difference
+sk_diabetes,30,"best classical (any, incl. RF/GBT/linear)",6,-0.079,-0.2558,0.0478,0.3333,0.3333,0.5625,1.0,no evidence of difference
+sk_diabetes,50,best classical kernel,6,0.0003,-0.0066,0.0096,0.3333,0.1667,0.6875,1.0,no evidence of difference
+sk_diabetes,50,"best classical (any, incl. RF/GBT/linear)",6,-0.0031,-0.013,0.0075,0.3333,0.1667,0.4375,1.0,no evidence of difference
+sk_diabetes,75,best classical kernel,6,0.0186,-0.0032,0.0572,0.5,0.1667,0.6875,1.0,no evidence of difference
+sk_diabetes,75,"best classical (any, incl. RF/GBT/linear)",6,0.0191,-0.0067,0.0588,0.6667,0.1667,0.4375,1.0,no evidence of difference
+sk_diabetes,100,best classical kernel,6,0.0248,0.0102,0.0394,0.8333,0.5,0.0625,1.0,no evidence of difference
+sk_diabetes,100,"best classical (any, incl. RF/GBT/linear)",6,0.0213,0.003,0.0392,0.6667,0.5,0.1562,1.0,no evidence of difference
+sk_wine,10,best classical kernel,6,-0.05,-0.132,0.0109,0.1667,0.1667,0.2188,1.0,no evidence of difference
+sk_wine,10,"best classical (any, incl. RF/GBT/linear)",6,-0.0562,-0.1382,0.0061,0.1667,0.1667,0.2188,1.0,no evidence of difference
+sk_wine,20,best classical kernel,6,-0.0212,-0.0509,-0.0043,0.0,0.0,0.0312,1.0,no evidence of difference
+sk_wine,20,"best classical (any, incl. RF/GBT/linear)",6,-0.0212,-0.0498,-0.0039,0.0,0.0,0.0312,1.0,no evidence of difference
+sk_wine,30,best classical kernel,6,-0.005,-0.0137,0.002,0.5,0.0,0.5625,1.0,no evidence of difference
+sk_wine,30,"best classical (any, incl. RF/GBT/linear)",6,-0.005,-0.0138,0.0022,0.5,0.0,0.5625,1.0,no evidence of difference
+sk_wine,50,best classical kernel,6,-0.0009,-0.0043,0.0024,0.6667,0.0,1.0,1.0,no evidence of difference
+sk_wine,50,"best classical (any, incl. RF/GBT/linear)",6,-0.0009,-0.0044,0.0024,0.6667,0.0,1.0,1.0,no evidence of difference
+sk_wine,75,best classical kernel,6,-0.0032,-0.007,0.0004,0.1667,0.0,0.2188,1.0,no evidence of difference
+sk_wine,75,"best classical (any, incl. RF/GBT/linear)",6,-0.0032,-0.007,0.0004,0.1667,0.0,0.2188,1.0,no evidence of difference
+sk_wine,100,best classical kernel,6,-0.0022,-0.0041,-0.0004,0.3333,0.0,0.1562,1.0,no evidence of difference
+sk_wine,100,"best classical (any, incl. RF/GBT/linear)",6,-0.0022,-0.0039,-0.0004,0.3333,0.0,0.1562,1.0,no evidence of difference

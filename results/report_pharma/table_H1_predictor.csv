@@ -1,0 +1,9 @@
+feature,pooled_spearman,p
+sel_g_over_sqrtN,-0.4576,0.0
+max_g_over_sqrtN,-0.4489,0.0
+log_var,-0.2821,0.0006
+sel_cka_vs_classical,0.1002,0.2319
+sel_frob_vs_classical,-0.3401,0.0
+sel_eff_rank,-0.4753,0.0
+LODO ridge (draw level),0.387,0.0
+LODO ridge (dataset-mean level),-0.2,0.8

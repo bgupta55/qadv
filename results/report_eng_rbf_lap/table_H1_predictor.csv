@@ -1,0 +1,7 @@
+feature,pooled_spearman,p
+sel_g_over_sqrtN,0.3597,0.0509
+max_g_over_sqrtN,0.3219,0.0828
+log_var,-0.1003,0.5978
+sel_cka_vs_classical,-0.3313,0.0738
+sel_frob_vs_classical,0.4438,0.014
+sel_eff_rank,-0.2885,0.122

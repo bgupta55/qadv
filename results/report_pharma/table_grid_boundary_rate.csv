@@ -1,0 +1,10 @@
+kind,family,at_grid_boundary
+classical_fp,tanimoto_fp,0.972
+classical_kernel,laplacian_matched,0.028
+classical_kernel,rbf_matched,0.035
+classical_kernel,twin_matched,0.0
+quantum,product_r2,0.007
+quantum,zz_full_r1,0.0
+quantum,zz_lin_r1,0.0
+quantum,zz_lin_r2,0.0
+quantum,zz_unshifted_lin_r1,0.014

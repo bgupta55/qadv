@@ -1,0 +1,11 @@
+dataset,N,reference,draws,mean_gap,ci_lo,ci_hi,quantum_win_rate,practical_win_rate,p_raw,p_holm,verdict
+eng_delaney_all_bw0.6,10,best classical kernel,6,0.0147,-0.041,0.0688,0.6667,0.5,0.4375,1.0,no evidence of difference
+eng_delaney_all_bw0.6,10,"best classical (any, incl. RF/GBT/linear)",6,0.0147,-0.0476,0.0688,0.6667,0.5,0.4375,1.0,no evidence of difference
+eng_delaney_all_bw0.6,20,best classical kernel,6,0.0344,-0.025,0.0981,0.5,0.5,0.4375,1.0,no evidence of difference
+eng_delaney_all_bw0.6,20,"best classical (any, incl. RF/GBT/linear)",6,0.0443,-0.0174,0.1097,0.5,0.5,0.4375,1.0,no evidence of difference
+eng_delaney_all_bw0.6,30,best classical kernel,6,-0.0277,-0.1019,0.0166,0.6667,0.1667,0.8438,1.0,no evidence of difference
+eng_delaney_all_bw0.6,30,"best classical (any, incl. RF/GBT/linear)",6,-0.0277,-0.1033,0.0158,0.6667,0.1667,0.8438,1.0,no evidence of difference
+eng_delaney_all_bw0.6,50,best classical kernel,6,0.0453,-0.0005,0.0972,0.6667,0.5,0.2188,1.0,no evidence of difference
+eng_delaney_all_bw0.6,50,"best classical (any, incl. RF/GBT/linear)",6,0.0453,0.0014,0.0982,0.6667,0.5,0.2188,1.0,no evidence of difference
+eng_delaney_all_bw0.6,75,best classical kernel,6,-0.01,-0.0277,0.0066,0.5,0.1667,0.5625,1.0,no evidence of difference
+eng_delaney_all_bw0.6,75,"best classical (any, incl. RF/GBT/linear)",6,-0.01,-0.0266,0.007,0.5,0.1667,0.5625,1.0,no evidence of difference

@@ -1,0 +1,25 @@
+{
+ "dataset": "eng_delaney_rbf_bw0.6",
+ "mode": "ibm",
+ "backend": "ibm_marrakesh",
+ "n": 12,
+ "rows": 66,
+ "shots": 500,
+ "depth": 169,
+ "two_qubit_gates": 26,
+ "circuit_seconds": 6e-06,
+ "estimated_qpu_seconds": 10.4,
+ "job_id": "REDACTED_JOB_ID",
+ "offdiag_rel_err": 0.5023911154574254,
+ "survival_f": 0.5143642323214447,
+ "cka_hw_vs_exact": 0.9951489261580173,
+ "min_eig_hw": 0.8315296704697226,
+ "kta": {
+  "quantum_exact": 0.3071802275897387,
+  "quantum_hardware": 0.3006889092596283,
+  "rbf_best_gamma_KTA": 0.240952482301195,
+  "laplacian_best_gamma_KTA": 0.3045842750754648,
+  "twin_best_gamma_KTA": 0.30824053391426326
+ },
+ "usage_seconds": 11
+}

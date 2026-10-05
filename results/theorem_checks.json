@@ -1,0 +1,67 @@
+{
+ "T2 small-bandwidth metric (1 rep)": {
+  "pass": true,
+  "rel_err": 3.208717146013264e-05
+ },
+ "T2b 2-rep metric is NOT exactly I+aQ (expected failure of exactness)": {
+  "pass": true,
+  "fit_rel_err": 0.1757600756850627
+ },
+ "T3 concentration-inflation bound (300 random trials)": {
+  "pass": true,
+  "violations": 0,
+  "trials": 300,
+  "worst_rel_violation": 0.0
+ },
+ "T3 consequence: concentrated 12-qubit kernel passes g/sqrtN>1 (spurious)": {
+  "pass": true,
+  "g_over_sqrtN": 1.8404106348995224,
+  "norm_Kq_minus_I": 0.012589759080345953
+ },
+ "T4a norm identity: quantum norm^2 = |v|^2 = 1, classical norm^2 = g^2": {
+  "pass": true,
+  "quantum_norm2": 1.0,
+  "classical_norm2": 87.66790743950651,
+  "g2": 87.66790743950652
+ },
+ "T4b Rademacher: empirical <= B*sqrt(tr K)/N (Monte-Carlo, 4 s.e. slack); bound ratio = g": {
+  "pass": true,
+  "emp_q": 0.12910169921292697,
+  "bound_q": 0.12909944487358058,
+  "emp_c": 1.062661150826889,
+  "bound_c": 1.2087728449375597,
+  "ratio": 9.363114195581856,
+  "g": 9.36311419558186
+ },
+ "T4c vacuity: classical bound >= 1 iff g >= sqrt(N)  (identity check)": {
+  "pass": true,
+  "classical_bound": 1.2087728449375597,
+  "g_over_sqrtN": 1.2087728449375599
+ },
+ "T6 Hoeffding+union: all Gram entries within eps w.p. >= 1-delta": {
+  "pass": true,
+  "shots_bound": 12206,
+  "empirical_failure": 0.0025,
+  "delta": 0.05
+ },
+ "T5a noise-as-ridge, UNcentred (offset (1-f)/2^n not absorbed)": {
+  "pass": true,
+  "rel_diff_ridge_model": 0.14073802971438545,
+  "rel_diff_naive": 0.3313294033305506,
+  "lam_eff": 0.5000000000000001
+ },
+ "T5a' noise-as-ridge with intercept/centring (offset absorbed)": {
+  "pass": true,
+  "rel_diff_ridge_model": 0.0011799035785525751,
+  "rel_diff_naive": 0.10647444338240766
+ },
+ "T5b noise-as-ridge predicts noisy-emulator KRR better than ignoring noise": {
+  "pass": true,
+  "fitted_f": 0.8465250948077738,
+  "rel_err_ridge_model": 0.24341246706488062,
+  "rel_err_ignore_noise": 0.3914008568573068,
+  "corr_ridge": 0.9749234982237992,
+  "corr_naive": 0.9737405417912457,
+  "seconds": 6.957979917526245
+ }
+}

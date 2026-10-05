@@ -1,0 +1,16 @@
+scripts/run_hardware_minimal.py:36: DeprecationWarning: The property ``qiskit.circuit.quantumcircuit.QuantumCircuit.duration`` is deprecated as of Qiskit 1.3.0. It will be removed in Qiskit 3.0.0.
+  circ_s = float(isa.duration * be.dt) if getattr(isa, "duration", None) else 1e-5
+rows (pairs): 66 | shots/row: 500 | transpiled depth 169, 2q gates 26, circuit time 5.3 us
+ESTIMATED QPU usage = 2 s + (rep_delay + circuit) * rows * shots = 10.4 s   (rep_delay assumed 250 us; confirm with job.usage_estimation)
+Traceback (most recent call last):
+  File "scripts/run_hardware_minimal.py", line 44, in <module>
+    t0 = time.time(); ent, info = H.estimate_entries_param(X, X, pairs, sampler, be, a.shots, 1, None, f"{a.out_dir}/min_counts.json", **fm)
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "qadv/hardware.py", line 180, in estimate_entries_param
+    res = job.result()[0]
+          ~~~~~~~~~~^^
+  File "venv/.../qiskit_ibm_runtime/runtime_job_v2.py", line 153, in result
+    raise RuntimeInvalidStateError(
+        f"Unable to retrieve result for job {self.job_id()}. Job was cancelled."
+    )
+qiskit_ibm_runtime.exceptions.RuntimeInvalidStateError: 'Unable to retrieve result for job REDACTED_JOB_ID. Job was cancelled.'

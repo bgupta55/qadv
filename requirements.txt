@@ -1,0 +1,9 @@
+matplotlib==3.10.8
+numpy==2.4.4
+pandas==3.0.2
+qiskit==2.5.2
+qiskit-aer==0.17.2
+qiskit-ibm-runtime==0.50.0
+rdkit==2026.3.6
+scikit-learn==1.8.0
+scipy==1.17.1

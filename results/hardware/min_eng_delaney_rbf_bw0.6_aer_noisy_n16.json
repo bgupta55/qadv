@@ -1,0 +1,30 @@
+{
+ "dataset": "eng_delaney_rbf_bw0.6",
+ "mode": "aer_noisy",
+ "backend": null,
+ "n": 16,
+ "rows": 120,
+ "shots": 1000,
+ "depth": 169,
+ "two_qubit_gates": 26,
+ "circuit_seconds": 5.416e-06,
+ "estimated_qpu_seconds": 32.64992,
+ "wall_seconds_client": 4.18927001953125,
+ "job_info": {
+  "job_id": "8336a180-6778-4455-8189-703098c8dce2",
+  "circuit_seconds": 5.416e-06,
+  "depth": 169,
+  "two_qubit_gates": 26
+ },
+ "offdiag_rel_err": 0.2991239490227986,
+ "survival_f": 0.7061359424369285,
+ "cka_hw_vs_exact": 0.9953876733616206,
+ "min_eig_hw": 0.533906548088409,
+ "kta": {
+  "quantum_exact": 0.24197810896693092,
+  "quantum_hardware": 0.24735942048315163,
+  "rbf_best_gamma_KTA": 0.1288496276864443,
+  "laplacian_best_gamma_KTA": 0.22547762245057845,
+  "twin_best_gamma_KTA": 0.26314737386946885
+ }
+}
